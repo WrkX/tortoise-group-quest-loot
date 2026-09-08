@@ -23,6 +23,7 @@ target_include_directories(${LIBRARY_NAME} PRIVATE
   ${CMAKE_SOURCE_DIR}/src/game/Protocol
   ${CMAKE_SOURCE_DIR}/src/game/Spells
   ${CMAKE_SOURCE_DIR}/src/game/Threat
+  ${CMAKE_SOURCE_DIR}/src/game/Transports
   ${CMAKE_SOURCE_DIR}/src/game/vmap
   ${CMAKE_SOURCE_DIR}/src/framework
   ${CMAKE_SOURCE_DIR}/src/framework/Network
