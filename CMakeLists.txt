@@ -27,6 +27,8 @@ target_include_directories(${LIBRARY_NAME} PRIVATE
   ${CMAKE_SOURCE_DIR}/src/framework/Network
   ${CMAKE_SOURCE_DIR}/src/shared
   ${CMAKE_SOURCE_DIR}/dep/include
+  ${CMAKE_SOURCE_DIR}/dep/fmt/include
+  ${CMAKE_SOURCE_DIR}/dep/fmt
   ${CMAKE_SOURCE_DIR}/dep/include/g3dlite
   ${CMAKE_SOURCE_DIR}/dep/recastnavigation/Detour
   ${CMAKE_SOURCE_DIR}/dep/recastnavigation
