@@ -9,6 +9,7 @@ target_include_directories(${LIBRARY_NAME} PRIVATE
   ${CMAKE_SOURCE_DIR}/src/game/AuctionHouse
   ${CMAKE_SOURCE_DIR}/src/game/Battlegrounds
   ${CMAKE_SOURCE_DIR}/src/game/Chat
+  ${CMAKE_SOURCE_DIR}/src/game/Commands
   ${CMAKE_SOURCE_DIR}/src/game/Database
   ${CMAKE_SOURCE_DIR}/src/game/Group
   ${CMAKE_SOURCE_DIR}/src/game/Handlers
